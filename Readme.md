@@ -6,7 +6,7 @@ a web-based chatbot that translates natural language questions into Cypher queri
 ## Features
 
 1. **Natural Language to Cypher Translation**  
-- Converts user queries into Cypher queries using a lightweight Hugging Face LLM model.  
+- Converts user queries into Cypher queries using Ollama meta-llama/Llama-3.2-1B.  
 
 2. **Neo4j Integration**  
 - Executes Cypher queries on a locally hosted Neo4j database and retrieves relevant results.  
