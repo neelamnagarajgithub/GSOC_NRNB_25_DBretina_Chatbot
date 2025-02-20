@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 # Set Neo4j environment variables
 os.environ["NEO4J_URI"] = "bolt://localhost:7687"
 os.environ["NEO4J_USERNAME"] = "nagaraj"
-os.environ["NEO4J_PASSWORD"] = "linux9977"
+os.environ["NEO4J_PASSWORD"] = "password"
 
 # Connect to Neo4j
 graph = Neo4jGraph()
